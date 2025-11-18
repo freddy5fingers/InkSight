@@ -43,7 +43,7 @@ InkSight is a sophisticated web application that helps users visualize unique ta
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/inksight.git
+    git clone https://github.com/freddy5fingers/inksight.git
     cd inksight
     ```
 
