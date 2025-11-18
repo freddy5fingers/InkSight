@@ -1,0 +1,5 @@
+{
+  "name": "InkSight: AI Tattoo Generator & Design Studio",
+  "description": "A web-based platform that helps users discover meaningful, personalized tattoo ideas powered by advanced AI. Users can enter keywords, emotions, stories, or styles to instantly receive unique tattoo concepts, symbolic meanings, and artist-ready prompts.",
+  "requestFramePermissions": []
+}

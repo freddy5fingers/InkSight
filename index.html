@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InkSight: AI Tattoo Generator & Design Studio</title>
+  <link rel="icon" type="image/png" href="https://initial-chocolate-znir6dm8ze.edgeone.app/Gemini_Generated_Image_h4mje1h4mje1h4mj.png" />
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.2.0",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1"
+    }
+  }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Roboto+Mono:wght@400;500&display=swap');
+    
+    :root {
+      --bg-color: #0D1117;
+      --card-bg: rgba(22, 27, 34, 0.6);
+      --border-color: rgba(255, 255, 255, 0.15);
+      --glow-color-1: #0a84ff;
+      --glow-color-2: #a942e9;
+      --glow-color-3: #42e9a9;
+    }
+
+    html {
+      background: url('https://gorgeous-aquamarine-6jpondw7t3.edgeone.app/Gemini_Generated_Image_e895bze895bze895.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    body {
+      font-family: 'Roboto Mono', monospace;
+      background-color: transparent;
+      color: #E6EDF3;
+      overflow-x: hidden;
+      position: relative;
+    }
+    
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(13, 17, 23, 0.85);
+      z-index: -1;
+    }
+
+    .font-sora {
+      font-family: 'Sora', sans-serif;
+    }
+    .font-roboto-mono {
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    .glass-card {
+        background-color: var(--card-bg);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid var(--border-color);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .text-gradient {
+      background: linear-gradient(90deg, var(--glow-color-1), var(--glow-color-2), var(--glow-color-3));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .animate-fade-in-up {
+      animation-name: fadeInUp;
+    }
+
+    .animate-fade-in {
+        animation: fadeInAnimation ease 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
