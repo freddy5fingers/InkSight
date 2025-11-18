@@ -89,6 +89,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+**Copyright (c) 2024 Dale King aka Freddy5fingers**
+
 ---
 
 *Note: InkSight is a conceptual tool. Always consult with a professional tattoo artist for final design feasibility and placement.*
